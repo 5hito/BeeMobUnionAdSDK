@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobUnionAdSDK"
-  s.version      = "1.0.8"
+  s.version      = "1.1.0"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     1.0.0:集合各个平台sdk
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.dependency "MJExtension"
   s.dependency 'Masonry'
-  s.dependency 'iCarousel'
 
   s.dependency 'KochavaTrackeriOS'
 
