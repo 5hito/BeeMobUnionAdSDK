@@ -2,10 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobUnionAdSDK"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     1.0.0:集合各个平台sdk
+    1.0.1:移除穿山甲
                    DESC
 
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
@@ -30,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'KochavaTrackeriOS'
 
-  s.dependency 'BeeMobBUADSDK'
+#s.dependency 'BeeMobBUADSDK'
   s.dependency 'BeeMobGDTSDK'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.41.0'
   s.dependency 'FBAudienceNetwork', '~> 4.28.1'
