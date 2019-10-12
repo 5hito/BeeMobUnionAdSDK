@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobUnionAdSDK"
-  s.version      = "1.2.6"
+  s.version      = "1.3.0"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     1.0.0:集合各个平台sdk
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     1.2.3:替换官方sdk
     1.2.5:fix bugs
     1.2.6:fix ios13 bugs
+    1.3.0:new spalsh
                    DESC
 
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
