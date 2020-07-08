@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeMobUnionAdSDK"
-  s.version      = "1.5.0"
+  s.version      = "1.5.1"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     1.0.0:集合各个平台sdk
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.resources = "lib/Resources/*.bundle"
 
   s.requires_arc = true
-  s.ios.deployment_target    = '8.0'
+  s.ios.deployment_target    = '10.0'
   s.ios.vendored_libraries = 'lib/libBeeMobUnionAdSDK.a'
 
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
