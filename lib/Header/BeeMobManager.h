@@ -10,6 +10,8 @@
 
 @interface BeeMobManager : NSObject
 
++ (void)setSDKConfig;
+
 + (void)setUserVip:(BOOL)isVip;
 + (void)setDefaultProductId:(NSString*)productID;
 
